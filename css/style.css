@@ -2,6 +2,54 @@
     margin: 0;
     padding: 0;
 }
-.background{
+.background-full{
     background-image: url('../image/Universe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#resultado{
+    background-color: #fff;
+    overflow :  hidden;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: #000;
+    text-align: right;
+}
+
+.background{
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calc{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+}
+.botao:hover{
+    background-color: #000;
+}
+.direito{
+    text-align: center;
+    color: #fff;
 }
